@@ -19,7 +19,7 @@ const Landing = () => {
   return (
     <div className="container">
       <Navigation />
-      <div className="flex">
+      <div className="flex center">
         <div className="myInfo">
           <h1 className="heading">
             Hi <img src={emoji} alt="emoji" width="10%" />, <br />
@@ -34,18 +34,11 @@ const Landing = () => {
           <div className="buttonCover">
             <button
               className=" button-4"
-              style={{
-                color: "black",
-              }}
             >
               HIRE ME
             </button>
             <button
               className=" button-5"
-              style={{
-                marginLeft: "38px",
-                border: "none",
-              }}
             >
               SEE MY PROJECTS
             </button>
